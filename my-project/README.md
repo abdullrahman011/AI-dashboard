@@ -1,12 +1,42 @@
-# React + Vite
+# Smart Referee System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a smart referee system that uses modern technologies to analyze sports matches and provide accurate and fast statistics.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Offside Analysis**: Detect and analyze offside cases using AI.
+- **Accurate Statistics**: Provide statistics such as detection accuracy, average decision time, and the number of analyzed cases.
+- **Interactive User Interface**: A user-friendly interface compatible with all devices.
+- **Dynamic Sidebar**: Support for sidebars on both small and large devices.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React**: For building the user interface.
+- **Vite**: For fast project development.
+- **Tailwind CSS**: For styling the interface.
+- **Lucide Icons**: For using icons.
+- **JavaScript**: For implementing business logic.
+
+## How to Run
+
+1. Install the required dependencies:
+   ```sh
+   npm install
+
+Run the project in development mode:
+npm run dev
+
+Open the browser at:
+http://localhost:5173
+
+Team Members
+    Yousef Al-Abri
+    Abdulrahman Salamah
+    Abdulrahman Al-Ajlan
+    Mohammed Al-Yami
+
+Future Steps
+    Improve model accuracy and expand the database.
+    Add analysis for other violations besides offside.  
+    Develop a recommendation system to enhance referee performance.
+
